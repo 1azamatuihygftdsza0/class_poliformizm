@@ -1,3 +1,5 @@
+from urllib.parse import non_hierarchical
+
 from class_2 import Azamat
 from topshiriq import click
 class user(click):
@@ -17,5 +19,5 @@ class user(click):
     def information(self):
         return f"sizning pulingiz {self.balans} so'm "
 
-Azamat_1 = user("azamat", "324567897654", 800000)
-print(Azamat_1.information())
+Azamat = user("azamat", "324567897654", 800000)
+print(Azamat.information())

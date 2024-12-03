@@ -11,16 +11,3 @@ class click:
             raise ValueError("Kodingizda kamida sakkizta element "
                              "ishtirok etishi kerak")
 Azamat = click("azamat", "12345556666666", 800000)
-
-
-
-
-
-
-
-
-
-
-
-
-

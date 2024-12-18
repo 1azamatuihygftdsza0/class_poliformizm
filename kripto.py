@@ -76,22 +76,21 @@
 #         bot.polling()
 #     except Exception as e:
 #         print(f"Xatolik yuz berdi: {e}")
-import telebot
-
-# Tokeningizni shu yerga yozing
-TOKEN = "BOT_TOKEn_HERE"  # Bu yerda bot tokeningizni yozing
-
-bot = telebot.TeleBot(TOKEN)
-
-@bot.message_handler(commands=['start'])
-def send_welcome(message):
-    bot.reply_to(message, "Assalomu alaykum")
-
-@bot.message_handler(func=lambda msg: True)
-def echo_all(message):
-    bot.reply_to(message, message.text)
-bot.polling()
-
+# import telebot
+#
+# # Tokeningizni shu yerga yozing
+# TOKEN = "BOT_TOKEn_HERE"  # Bu yerda bot tokeningizni yozing
+#
+# bot = telebot.TeleBot(TOKEN)
+#
+# @bot.message_handler(commands=['start'])
+# def send_welcome(message):
+#     bot.reply_to(message, "Assalomu alaykum")
+#
+# @bot.message_handler(func=lambda msg: True)
+# def echo_all(message):
+#     bot.reply_to(message, message.text)
+# bot.polling()
 
 
 

@@ -1,5 +1,5 @@
 import telebot
-from telebot.types import ReplyKeyboardMarkup, KeyboardButton
+from telebot.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup
 
 bot = telebot.TeleBot("7609544102:AAE8VTk5W_WZz-Tuzt8jDvHl63NRa4I3mkE")
 ruyxat = {}
